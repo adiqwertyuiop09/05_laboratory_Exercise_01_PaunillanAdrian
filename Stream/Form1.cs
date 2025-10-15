@@ -13,7 +13,7 @@ namespace Stream
 {
     public partial class Form1 : Form
     {
-        frmFileName fileName = new frmFileName();
+       
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +22,8 @@ namespace Stream
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            frmFileName fileName = new frmFileName();
+            fileName.ShowDialog();
             String getInput = txtInput.Text;
 
             string docPath =
