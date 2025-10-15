@@ -1,0 +1,7 @@
+Student Number: 02000351520
+Full Name: Paunillan, Adrian, R
+Program: BS Information Technology
+Gender: Male
+Age: 20
+Birthday: 2005-08-09
+Contact No. 09925632146

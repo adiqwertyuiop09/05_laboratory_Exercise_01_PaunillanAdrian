@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace Stream
 {
     public partial class frmFileName : Form
     {
+        FrmRegistration frmreg = new FrmRegistration();
         public static String FileName;
         public frmFileName()
         {
@@ -25,6 +27,8 @@ namespace Stream
             String name = txtFileName.Text;
             FileName = name + ".txt";
             this.Close();
+
+            frmreg.ShowDialog();
         }
     }
 }
